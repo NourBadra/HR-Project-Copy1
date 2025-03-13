@@ -17,18 +17,7 @@ The layoffs dataset was sourced from Google Drive . You can find the raw file at
 - Power Pivot (DAX)
 - Data Modeling
 
-## Data Cleaning
-Here's the updated README file with the additional details on renaming unclear titles, capitalizing each word in columns, and merging first and last names:
-
-markdown
-# HR Analytics Power BI Project
-
-## Overview
-This Power BI project focuses on analyzing HR data to gain insights into employee demographics, performance, and training opportunities. The project uses several tools and techniques within Power BI to achieve this.
-
-## Tools and Techniques Used
-
-### 1. Data Cleaning
+##  Data Cleaning
 - **Setting the First Row as Header**:
   - Navigate to the 'Transform Data' tab.
   - Select the option to use the first row as headers (Home > Use First Row as Headers).
@@ -55,35 +44,24 @@ This Power BI project focuses on analyzing HR data to gain insights into employe
   - Select the first and last name columns.
   - Use the 'Merge Columns' option (Transform > Merge Columns) and choose a separator (e.g., space) to create a full name column.
 
-### 2. Conditional Columns
+##  Conditional Columns
 - **Age Categories**: We created a conditional column to classify employees into different age categories based on their ages.
   - **Categories**: 
     - Young Adult (18-29)
     - Middle Adult (30-39)
     - Older Adult (40-51)
-  - **Steps**:
-    - Navigate to the 'Transform Data' tab.
-    - Select 'Add Column' > 'Conditional Column'.
-    - Define the conditions and corresponding outputs for different age groups.
+
 
 - **Distance Categories**: We created a conditional column to group employees based on their distance from the office.
   - **Categories**: 
     - Nearby (1-15)
     - Far (16-30)
     - Very Far (31-45)
-  - **Steps**:
-    - Navigate to the 'Transform Data' tab.
-    - Select 'Add Column' > 'Conditional Column'.
-    - Define the conditions and corresponding outputs for different distance ranges.
+
 
 ### 3. Custom Columns using M Language
 - **Percentage of Training Opportunities Taken**: We used M Language to create a custom column that calculates the percentage of training opportunities taken by each employee.
-  - **Steps**:
-    - Navigate to the 'Transform Data' tab.
-    - Select 'Add Column' > 'Custom Column'.
-    - Enter the M Language formula to calculate the percentage. An example formula might look like:
-      m
-      if [Total Training Opportunities] = 0 then 0 else [Training Taken] / [Total Training Opportunities] * 100
+  
       
 
 
