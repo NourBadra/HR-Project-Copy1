@@ -29,11 +29,9 @@ The HR dataset was sourced from Google Drive. You can find the raw file at https
 
 **Capitalizing Each Word in Columns**
 
-
 **Merging First and Last Name Columns into Full Name**
  
 **Replacing City Values**:
-
 
  **Splitting Hire Date into Day, Month, and Year**:
   
