@@ -18,33 +18,33 @@ The layoffs dataset was sourced from Google Drive . You can find the raw file at
 - Data Modeling
 
 ##  Data Cleaning
--**Setting the First Row as Header**:
+**Setting the First Row as Header**:
   - Navigate to the 'Transform Data' tab.
   - Select the option to use the first row as headers (Home > Use First Row as Headers).
   
--**Removing Null Values**:
+**Removing Null Values**:
   - In the 'Transform Data' tab, select the columns where you want to remove nulls.
   - Use the 'Remove Rows' drop-down menu (Home > Remove Rows > Remove Rows with Errors).
   
--**Removing Empty Columns**:
+**Removing Empty Columns**:
   - In the 'Transform Data' tab, select the columns you want to remove.
   - Use the 'Remove Columns' option (Home > Remove Columns > Remove Empty Columns).
 
--**Renaming Unclear Titles**:
+**Renaming Unclear Titles**:
   - Navigate to the 'Transform Data' tab.
   - Double-click on the column headers you want to rename and provide clear and descriptive titles.
 
--**Capitalizing Each Word in Columns**:
+**Capitalizing Each Word in Columns**:
   - Navigate to the 'Transform Data' tab.
   - Select the column you want to capitalize.
   - Use the 'Format' option (Transform > Format > Capitalize Each Word).
 
--**Merging First and Last Name Columns into Full Name**:
+**Merging First and Last Name Columns into Full Name**:
   - Navigate to the 'Transform Data' tab.
   - Select the first and last name columns.
   - Use the 'Merge Columns' option (Transform > Merge Columns) and choose a separator (e.g., space) to create a full name column.
 
--**Conditional Columns**
+**Conditional Columns**
 - **Age Categories**: We created a conditional column to classify employees into different age categories based on their ages.
   - **Categories**: 
     - Young Adult (18-29)
@@ -52,14 +52,14 @@ The layoffs dataset was sourced from Google Drive . You can find the raw file at
     - Older Adult (40-51)
 
 
--**Distance Categories**: We created a conditional column to group employees based on their distance from the office.
+**Distance Categories**: We created a conditional column to group employees based on their distance from the office.
   - **Categories**: 
     - Nearby (1-15)
     - Far (16-30)
     - Very Far (31-45)
 
 
--**Custom Columns using M Language**
+**Custom Columns using M Language**
 - **Percentage of Training Opportunities Taken**: We used M Language to create a custom column that calculates the percentage of training opportunities taken by each employee.
 
 
