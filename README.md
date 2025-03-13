@@ -33,10 +33,10 @@ The HR dataset was sourced from Google Drive. You can find the raw file at https
 **Merging First and Last Name Columns into Full Name**
  
 **Replacing City Values**:
-  - Used the 'Replace Values' option (Transform > Replace Values) to replace 'NY' with 'New York', 'IL' with 'Illinois', and 'CA' with 'California'.
+
 
  **Splitting Hire Date into Day, Month, and Year**:
-  - Use the 'Split Column' option (Transform > Split Column > By Delimiter) and choose the appropriate delimiter to split the column into day, month, and year.
+  
     
 **Conditional Columns**
 - **Age Categories**: We created a conditional column to classify employees into different age categories based on their ages.
