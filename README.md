@@ -44,7 +44,7 @@ The layoffs dataset was sourced from Google Drive . You can find the raw file at
   - Select the first and last name columns.
   - Use the 'Merge Columns' option (Transform > Merge Columns) and choose a separator (e.g., space) to create a full name column.
 
-  **Conditional Columns**
+**Conditional Columns**
 - **Age Categories**: We created a conditional column to classify employees into different age categories based on their ages.
   - **Categories**: 
     - Young Adult (18-29)
