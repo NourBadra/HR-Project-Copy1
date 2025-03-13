@@ -49,7 +49,12 @@ The HR dataset was sourced from Google Drive. You can find the raw file at https
     - Nearby (1-15)
     - Far (16-30)
     - Very Far (31-45)
-
+      
+**Experience Categories**: We created a conditional column to categorize employees based on their years at the company.
+  - **Categories**:
+    - New Hires (0-2)
+    - Mid-Level Employees (2-5)
+    - Experienced Employees (5-10)
 
 **Custom Columns using M Language**
 - **Percentage of Training Opportunities Taken**: We used M Language to create a custom column that calculates the percentage of training opportunities taken by each employee.
