@@ -34,7 +34,7 @@ The HR dataset was sourced from Google Drive. You can find the raw file at https
 **Replacing City Values**:
 ??
 
- **Splitting Hire Date into Day, Month, and Year**:
+ **Splitting Hire Date into Day, Month, and Year**
   
     
 **Conditional Columns**
