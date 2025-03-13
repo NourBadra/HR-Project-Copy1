@@ -30,12 +30,11 @@ The HR dataset was sourced from Google Drive. You can find the raw file at https
 **Capitalizing Each Word in Columns**
 
 **Merging First and Last Name Columns into Full Name**
- 
-**Replacing City Values**:
-??
 
  **Splitting Hire Date into Day, Month, and Year**
-  
+
+ **Replacing City Values**:
+ 'NY' with 'New York', 'IL' with 'Illinois', and 'CA' with 'California'.
     
 **Conditional Columns**
 - **Age Categories**: We created a conditional column to classify employees into different age categories based on their ages.
