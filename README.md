@@ -86,8 +86,7 @@ This Power BI project focuses on analyzing HR data to gain insights into employe
       if [Total Training Opportunities] = 0 then 0 else [Training Taken] / [Total Training Opportunities] * 100
       
 
-## Conclusion
-This README provides an overview of the key tools and techniques used in our HR analytics Power BI project. By utilizing data cleaning, conditional columns, and custom columns with M Language, we were able to categorize and analyze employee data effectively.
+
 
 
 Feel free to edit and expand on this draft to best suit your project details. Let me know if there's anything else you need!
