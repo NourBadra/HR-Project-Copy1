@@ -10,7 +10,7 @@ This project aims to analyze and visualize Performance of Employees data in the 
 - [Limitations/Assumptions](#limitationsassumptions)
   
 ## Data Sources
-The layoffs dataset was sourced from Google Drive . You can find the raw file at https://drive.google.com/drive/folders/1F6OBnq8BEPWrkvGa9n0ZKLM7CIemSnVw
+TheHR dataset was sourced from Google Drive . You can find the raw file at https://drive.google.com/drive/folders/1F6OBnq8BEPWrkvGa9n0ZKLM7CIemSnVw
 
 ## Tools
 - Power  Query( ETL, Conditional Columns, Custom Columns using M Language)
