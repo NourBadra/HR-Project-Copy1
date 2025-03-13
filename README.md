@@ -13,9 +13,7 @@ This project aims to analyze and visualize Performance of Employees data in the 
 The layoffs dataset was sourced from Google Drive . You can find the raw file at https://drive.google.com/drive/folders/1F6OBnq8BEPWrkvGa9n0ZKLM7CIemSnVw
 
 ## Tools
-SQL: For data extraction, transformation, and loading into the database.
-Database Management System: MySQL to host and manage the dataset.
-Programming Languages: SQL for data processing and scripting.
+
 
 
 
