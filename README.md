@@ -1,5 +1,5 @@
 # HR-Dataset
-This project aims to analyze and visualize Performance of Employees data in the Company for the years 2012-2022. The data is sourced from the HR_dataset and has been processed using Power BI for easy management and analysis.This project showcases our skills in Power BI as I go through data cleaning, analysing and visualizing the layoffs dataset.
+This project aims to analyze and visualize the Performance of Employees' data in the Company for 2012-2022. The data is sourced from the HR_dataset and has been processed using Power BI for easy management and analysis. This project showcases our skills in Power BI as I go through data cleaning, analysing and visualizing the layoffs dataset.
 ## Table of Contents
 
 - [Data Sources](#data-sources)
@@ -10,7 +10,7 @@ This project aims to analyze and visualize Performance of Employees data in the 
 - [Limitations/Assumptions](#limitationsassumptions)
   
 ## Data Sources
-The HR dataset was sourced from Google Drive . You can find the raw file at https://drive.google.com/drive/folders/1F6OBnq8BEPWrkvGa9n0ZKLM7CIemSnVw
+The HR dataset was sourced from Google Drive. You can find the raw file at https://drive.google.com/drive/folders/1F6OBnq8BEPWrkvGa9n0ZKLM7CIemSnVw
 
 ## Tools
 - Power  Query( ETL, Conditional Columns, Custom Columns using M Language)
@@ -18,7 +18,7 @@ The HR dataset was sourced from Google Drive . You can find the raw file at http
 - Data Modeling
 
 ##  Data Cleaning
-**Setting the First Row as Header**
+**Setting the First Row as a Header**
 
 **Removing Null Values**
   
@@ -32,7 +32,12 @@ The HR dataset was sourced from Google Drive . You can find the raw file at http
 
 **Merging First and Last Name Columns into Full Name**
  
+**Replacing City Values**:
+  - Used the 'Replace Values' option (Transform > Replace Values) to replace 'NY' with 'New York', 'IL' with 'Illinois', and 'CA' with 'California'.
 
+ **Splitting Hire Date into Day, Month, and Year**:
+  - Use the 'Split Column' option (Transform > Split Column > By Delimiter) and choose the appropriate delimiter to split the column into day, month, and year.
+    
 **Conditional Columns**
 - **Age Categories**: We created a conditional column to classify employees into different age categories based on their ages.
   - **Categories**: 
