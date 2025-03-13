@@ -18,31 +18,20 @@ The layoffs dataset was sourced from Google Drive . You can find the raw file at
 - Data Modeling
 
 ##  Data Cleaning
-**Setting the First Row as Header**:
-  - Navigate to the 'Transform Data' tab.
-  - Select the option to use the first row as headers (Home > Use First Row as Headers).
+**Setting the First Row as Header**
+
+**Removing Null Values**
   
-**Removing Null Values**:
-  - In the 'Transform Data' tab, select the columns where you want to remove nulls.
-  - Use the 'Remove Rows' drop-down menu (Home > Remove Rows > Remove Rows with Errors).
-  
-**Removing Empty Columns**:
-  - In the 'Transform Data' tab, select the columns you want to remove.
-  - Use the 'Remove Columns' option (Home > Remove Columns > Remove Empty Columns).
+**Removing Empty Columns**
 
-**Renaming Unclear Titles**:
-  - Navigate to the 'Transform Data' tab.
-  - Double-click on the column headers you want to rename and provide clear and descriptive titles.
 
-**Capitalizing Each Word in Columns**:
-  - Navigate to the 'Transform Data' tab.
-  - Select the column you want to capitalize.
-  - Use the 'Format' option (Transform > Format > Capitalize Each Word).
+**Renaming Unclear Titles**
 
-**Merging First and Last Name Columns into Full Name**:
-  - Navigate to the 'Transform Data' tab.
-  - Select the first and last name columns.
-  - Use the 'Merge Columns' option (Transform > Merge Columns) and choose a separator (e.g., space) to create a full name column.
+**Capitalizing Each Word in Columns**
+
+
+**Merging First and Last Name Columns into Full Name**
+ 
 
 **Conditional Columns**
 - **Age Categories**: We created a conditional column to classify employees into different age categories based on their ages.
