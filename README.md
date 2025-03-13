@@ -9,7 +9,6 @@ This project aims to analyze and visualize Performance of Employees data in the 
 - [Visualizations](#visualizations)
 - [Limitations/Assumptions](#limitationsassumptions)
   
-Data Sources
-
+## Data Sources
 The layoffs dataset was sourced from kaggle. You can find the raw file at https://www.kaggle.com/datasets/swaptr/layoffs-2022 or layoffs_raw.csv
 
